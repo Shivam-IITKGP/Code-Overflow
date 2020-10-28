@@ -1,5 +1,5 @@
 // C++ program to find the given number is even or odd
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
