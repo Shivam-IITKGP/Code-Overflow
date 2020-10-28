@@ -5,17 +5,10 @@ def Encrypt_Decrypt():
     cons=['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
 
     def menu():
-        print()
-        print('_____________________________________')
-        print()
-        print("---- CRYPTOGRAPHY ----")
-        print()
+        print("---- CRYPTOGRAPHY ----",end='\n')
         print("1.Encrypt a given text")
         print("2.Decrypt a given text")
-        print("3.Exit this MENU")
-        print()
-        print("_____________________________________")
-        print()
+        print("3.Exit this MENU",end='\n')
 
     def enc(txt):
         ct=''
